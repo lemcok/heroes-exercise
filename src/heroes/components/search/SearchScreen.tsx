@@ -35,7 +35,8 @@ export const SearchScreen = () => {
                      aria-label="off"
                      shadow={false}
                      placeholder="Search..."
-                     color="success"
+                     color="primary"
+                     bordered
                      name='searchText'
                      value={searchText}
                      onChange={ handleInputChange }
